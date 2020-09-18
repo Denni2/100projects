@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#full-page {
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: center;
+
+    background-color: #d2691e;
+}
+
+#btn {
+    margin: 5% 0;
+    font-size: 2em;
+
+    -webkit-box-shadow: 3px 3px 9px 1px #000000, -1px -1px 9px 1px #ffffff ; 
+    box-shadow: 3px 3px 9px 1px #000000, -1px -1px 9px 1px #ffffff;
+
+    border-radius: 5px;
+    border-style: none;
+
+}
