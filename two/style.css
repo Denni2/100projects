@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#full-page {
+    height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#color-button {
+    font-size: 2em;
+
+    background-color: transparent;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    outline: none;
+
+    -webkit-box-shadow: 4px 4px 5px 1px #111111, -2px -2px 6px 1px #FFFFFA;
+    box-shadow: 4px 4px 5px 1px #111111, -2px -2px 6px 1px #FFFFFA;
+    
+    cursor: pointer;
+}
